@@ -1,0 +1,11 @@
+user_id,timestamp,feedback_text,rating
+u001,2025-06-28T10:00:00,"Checkout crashed after entering card details",2
+u002,2025-06-28T10:05:00,"Very fast loading, easy to use",5
+u003,2025-06-28T10:10:00,"Couldn't add product to cart",1
+u004,2025-06-28T10:15:00,"Nice design, a bit slow at payment",3
+u005,2025-06-28T10:20:00,"App froze during checkout",2
+u006,2025-06-28T10:25:00,"Everything worked smoothly",5
+u007,2025-06-28T10:30:00,"Had to reload page twice",2
+u008,2025-06-28T10:35:00,"Too many steps in checkout",3
+u009,2025-06-28T10:40:00,"Great UX and speed",5
+u010,2025-06-28T10:45:00,"Not responsive on mobile",2
