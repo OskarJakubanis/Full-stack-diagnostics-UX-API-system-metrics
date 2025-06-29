@@ -1,0 +1,14 @@
+timestamp,endpoint,status_code,response_time_ms,service_name
+2025-06-28T09:00:00,/get_product,200,120,product-api
+2025-06-28T09:01:15,/add_to_cart,200,150,cart-service
+2025-06-28T09:02:30,/checkout,500,980,payment-api
+2025-06-28T09:03:45,/get_product,200,110,product-api
+2025-06-28T09:05:00,/add_to_cart,200,140,cart-service
+2025-06-28T09:06:15,/checkout,200,760,payment-api
+2025-06-28T09:07:30,/get_product,200,100,product-api
+2025-06-28T09:08:45,/add_to_cart,429,50,cart-service
+2025-06-28T09:10:00,/checkout,500,1020,payment-api
+2025-06-28T09:11:15,/get_product,200,95,product-api
+2025-06-28T09:12:30,/add_to_cart,200,145,cart-service
+2025-06-28T09:13:45,/checkout,200,740,payment-api
+2025-06-28T09:15:00,/get_product,200,105,product-api
