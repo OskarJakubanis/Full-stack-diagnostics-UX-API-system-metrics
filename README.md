@@ -1,4 +1,4 @@
-# 📊 Front-to-Back E-commerce Insights: UX, API, System Metrics
+# 📊 Full stack diagnostics: UX, API, system-metrics
 
 
 This project provides a modular analytics pipeline to help digital teams understand user behavior, system reliability, and support effectiveness using simulated front office and backend data.
