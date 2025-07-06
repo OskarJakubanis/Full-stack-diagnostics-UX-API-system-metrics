@@ -1,75 +1,65 @@
-agile-ecommerce-monitoring-suite
+# 📊 E-commerce Behavior & System Monitoring Suite
 
-Project Description:
+This project provides a modular analytics pipeline to help digital teams understand user behavior, system reliability, and support effectiveness using simulated front office and backend data.
 
-This project is a full-stack, integrated monitoring suite for e-commerce platforms, combining data from user experience (UX), backend system logs, and customer support tickets to provide comprehensive insights into system performance, customer behavior, and operational efficiency.
+---
 
-⸻
+## 🎯 Objectives
 
-Objectives:
-	•	Analyze front office data such as user clicks, abandoned carts, and page load times to understand customer engagement and friction points.
-	•	Monitor backend system performance, including API errors, server response times, and service availability.
-	•	Track support ticket volume, resolution times, and common issues to evaluate customer service effectiveness.
-	•	Generate dashboards and automated reports (Power BI dashboards, PDF summaries) for stakeholders such as managers, UX teams, IT, and support staff.
-	•	Provide actionable insights that help improve customer experience, optimize system reliability, and enhance support operations.
+- Analyze front office data such as user clicks, abandoned carts, and page load times to understand customer engagement and friction points.  
+- Monitor backend system performance, including API errors, server response times, and service availability.  
+- Track support ticket volume, resolution times, and common issues to evaluate customer service effectiveness.  
+- Generate dashboards and automated reports (Power BI dashboards, PDF summaries) for stakeholders such as managers, UX teams, IT, and support staff.  
+- Provide actionable insights that help improve customer experience, optimize system reliability, and enhance support operations.
 
-⸻
+---
 
-Data Sources:
-	•	clickstream.csv: Simulated user click data on website elements.
-	•	cart_abandonment.csv: Records of abandoned shopping carts.
-	•	page_load_times.csv: Measurements of page loading durations.
-	•	api_logs.csv: Backend API call logs with status codes and response times.
-	•	support_tickets.csv: Customer support ticket data including submission and resolution timestamps.
+## 🧾 Data Sources
 
-⸻
+- `clickstream.csv`: Simulated user click data on website elements  
+- `cart_abandonment.csv`: Records of abandoned shopping carts  
+- `page_load_times.csv`: Measurements of page loading durations  
+- `api_logs.csv`: Backend API call logs with status codes and response times  
+- `user_feedback.csv`: Free-text feedback with numerical ratings  
+- `session_tracking.csv`: Session-level browsing behavior with entry and exit points  
 
-Technologies:
-	•	Python for data processing and analysis.
-	•	Power BI Desktop for dashboard visualization.
-	•	Report generation with Python libraries (optional).
-	•	Version control with Git and GitHub for project management.
+---
 
-⸻
+## ⚙️ Technologies Used
 
-Project Structure:
+- Python 3.9+
+- `pandas` for data manipulation and analysis  
+- `textblob` for sentiment analysis (`analyze_feedback.py`)  
+- `matplotlib.pyplot` for basic visualizations
 
-/agile-ecommerce-monitoring-suite
-│
-├── data/
-│   ├── clickstream.csv
-│   ├── cart_abandonment.csv
-│   ├── page_load_times.csv
-│   ├── api_logs.csv
-│   └── support_tickets.csv
-│
-├── scripts/
-│   ├── data_processing.py
-│   ├── analysis.py
-│   └── report_generation.py
-│
-├── reports/
-│   └── monitoring_report.pdf
-│
-├── dashboards/
-│   └── powerbi_report.pbix
-│
-└── README.md
+📁 Required libraries are listed in [`requirements.txt`](./requirements.txt)  
+📖 Function-level usage is documented in [`used_functions.md`](./used_functions.md)
 
+---
 
-⸻
+## 📁 Script Overview
 
-Getting Started:
-	1.	Clone the repository.
-	2.	Load CSV files into Python for cleaning and preprocessing.
-	3.	Perform exploratory data analysis and calculate KPIs.
-	4.	Build visualizations and dashboards in Power BI.
-	5.	Automate report generation with Python.
-	6.	Commit changes and push to GitHub.
-	7.	Share insights with stakeholders via dashboard and reports.
+Each script targets a specific part of the data pipeline:
 
-⸻
+- `analyze_api_logs.py` – API performance, error rates, and slow services  
+- `analyze_feedback.py` – Sentiment vs rating consistency  
+- `analyze_sessions.py` – Session durations and drop-off pages  
+- `analyse_cart_abandonment.py` – Abandonment patterns and lost revenue  
+- `analyse_clickstream.py` – User interaction intensity and most clicked elements  
+- `analyse_page_load_times.py` – Frontend speed and slowest URLs
 
-Contact:
+---
 
-For questions or feedback, please open an issue or contact me directly.
+## 🧪 Project Workflow
+
+1. Clone the repository.
+2. Review the available CSV files in the data/ directory.
+3. Run each analysis script (.py) to generate KPIs, summary statistics, and plots.
+4. Check the console output for insights.
+5. Refer to used_functions.md for an overview of key Python and library functions used.
+
+---
+
+## 📬 Contact
+
+For questions, suggestions, or collaboration proposals, please [open an issue](https://github.com/your-repo/issues) or contact me directly.
