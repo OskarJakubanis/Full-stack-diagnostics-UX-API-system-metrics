@@ -4,7 +4,6 @@
 # 3. Count how many entries have mismatched sentiment labels
 
 import pandas as pd
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from textblob import TextBlob
 
