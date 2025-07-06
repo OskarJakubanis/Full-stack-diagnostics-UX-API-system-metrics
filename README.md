@@ -1,4 +1,5 @@
-# 📊 E-commerce Behavior & System Monitoring Suite
+# 📊 Front-to-Back E-commerce Insights: UX, API, System Metrics
+
 
 This project provides a modular analytics pipeline to help digital teams understand user behavior, system reliability, and support effectiveness using simulated front office and backend data.
 
