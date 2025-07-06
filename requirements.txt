@@ -1,10 +1,5 @@
-# How to use: run 'pip install -r requirements.txt' in your project folder to install all required libraries
+# How to use: run 'pip install -r requirements.txt'
 
-pandas>=1.3.0  # data analysis, CSV processing, aggregation
-numpy>=1.21.0  # mathematical operations and multi-dimensional arrays
-matplotlib>=3.4.0  # data plotting and visualization
-seaborn>=0.11.0  # statistical data visualization based on matplotlib
-scipy>=1.7.0  # advanced statistical and scientific functions
-jinja2>=3.0.0  # HTML template generation (e.g., reports)
-pdfkit>=1.0.0  # converting HTML reports to PDF
-pytest>=6.0.0  # unit testing framework for Python code
+pandas>=1.3.0
+textblob>=0.15.3
+matplotlib>=3.4.0
