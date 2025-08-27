@@ -53,10 +53,11 @@ Each script targets a specific part of the data pipeline:
 
 ## 🧪 Project Workflow
 
-1. Clone the repository.
-2. Review the available CSV files in the `data/` directory.
-3. Run each analysis script (`.py`) to generate KPIs, summary statistics, and plots.
-4. Check the console output for insights.
+1. Acknowledge the data – review data_description.md to understand the structure and content of the CSV files.  
+2. Clone the repository.  
+3. Review the available CSV files in the data/ directory.  
+4. Run each analysis script (.py) to generate KPIs, summary statistics, and plots.  
+5. Check the console output for insights
 
 *In `.py` files, `#` comments show step-by-step procedures.*  
 *Refer to `used_functions.md` for an overview of key Python and library functions used.*  
