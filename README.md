@@ -10,7 +10,7 @@ This project provides a modular analytics pipeline to help teams understand user
 - Analyze front office data such as user clicks, abandoned carts, and page load times to understand customer engagement and friction points.  
 - Monitor backend system performance, including API errors, server response times, and service availability.  
 - Track support ticket volume, resolution times, and common issues to evaluate customer service effectiveness.  
-- Generate dashboards and automated reports (Power BI dashboards, PDF summaries) for stakeholders such as managers, UX teams, IT, and support staff.  
+- Generate PDF summaries for stakeholders.  
 - Provide actionable insights that help improve customer experience, optimize system reliability, and enhance support operations.
 
 ---
