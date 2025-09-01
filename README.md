@@ -27,19 +27,6 @@ This project provides a modular analytics pipeline to help teams understand user
 
 ---
 
-## 📁 Script Overview
-
-Each script targets a specific part of the data pipeline:
-
-- `analyze_api_logs.py` – API performance, error rates, and slow services  
-- `analyze_feedback.py` – Sentiment vs rating consistency  
-- `analyze_sessions.py` – Session durations and drop-off pages  
-- `analyse_cart_abandonment.py` – Abandonment patterns and lost revenue  
-- `analyse_clickstream.py` – User interaction intensity and most clicked elements  
-- `analyse_page_load_times.py` – Frontend speed and slowest URLs
-
----
-
 ## 🧪 Project Workflow
 
 1. Review the data `data_description.md` to understand the structure and content of the CSV files.  
