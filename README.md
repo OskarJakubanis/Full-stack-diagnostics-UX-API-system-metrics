@@ -1,7 +1,7 @@
 # 📊 Full stack diagnostics: UX, API, system-metrics
 
 
-This project provides a modular analytics pipeline to help digital teams understand user behavior, system reliability, and support effectiveness using simulated front office and backend data.
+This project provides a modular analytics pipeline to help teams understand user behavior, system reliability, and support effectiveness using simulated front office and backend data.
 
 ---
 
@@ -12,17 +12,6 @@ This project provides a modular analytics pipeline to help digital teams underst
 - Track support ticket volume, resolution times, and common issues to evaluate customer service effectiveness.  
 - Generate dashboards and automated reports (Power BI dashboards, PDF summaries) for stakeholders such as managers, UX teams, IT, and support staff.  
 - Provide actionable insights that help improve customer experience, optimize system reliability, and enhance support operations.
-
----
-
-## 🧾 Data Sources
-
-- `clickstream.csv`: Simulated user click data on website elements  
-- `cart_abandonment.csv`: Records of abandoned shopping carts  
-- `page_load_times.csv`: Measurements of page loading durations  
-- `api_logs.csv`: Backend API call logs with status codes and response times  
-- `user_feedback.csv`: Free-text feedback with numerical ratings  
-- `session_tracking.csv`: Session-level browsing behavior with entry and exit points  
 
 ---
 
